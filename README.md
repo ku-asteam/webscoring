@@ -10,10 +10,12 @@ PRank Score based on the Matrix Form is a implementation of aSTEAM Project (Next
 * PRankMatrixForm.java computes PRank scores based on the matrix form.
 * DataPreparing.java and FileReading.java read the graphs and prepare data for the two above classes.
 
+
+## How to use
 You need two files represent the dataset:
 1. One file contains the main graph where each line represents an edge (i.e., a \tab b means a-->b) .
 2. One file contains the reverse graph where each line represents a reverse edge in the main graph (i.e., b \tab a means b-->a).
 
-## How to use
+and
 1. Input graph and reverse graph in the form of a matrix
 2. Input a number of iterations
